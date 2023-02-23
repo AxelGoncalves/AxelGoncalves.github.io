@@ -1,12 +1,31 @@
-.container-header {
+header {
     display: flex;
+    font-size: 5rem;
+    border-radius: 50px;
+    width: 90%;
+    align-items: center;
+    gap: 1rem;
+    background-color: #f0f;
+    color: #0F0;
+    justify-content: space-between;
+    margin: auto;
 }
 
-header {
-    width: 100%;
-    background-image: url(./images/sexy-animated-rainbow-waves-header.gif);
-    background-position: center;
-    background-size: cover;
-    height: 300px; width: 100%;
-    border-radius: 50px;
+img.header-img, h1 {
+    display: block;
+    min-height: 100%;
+}
+
+#header-img1 {
+    transform: scaleX(-1);
+    border-radius: 0px 50px 50px 0px;
+}
+
+#header-img2 {
+    border-radius: 0px 50px 50px 0px;
+}
+
+header:hover {
+    background-color: #0F0;
+    color: #f0f;
 }
