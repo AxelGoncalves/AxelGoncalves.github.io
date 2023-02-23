@@ -1,0 +1,12 @@
+.container-header {
+    display: flex;
+}
+
+header {
+    width: 100%;
+    background-image: url(../images/sexy-animated-rainbow-waves-header.gif);
+    background-position: center;
+    background-size: cover;
+    height: 300px; width: 100%;
+    border-radius: 50px;
+}
